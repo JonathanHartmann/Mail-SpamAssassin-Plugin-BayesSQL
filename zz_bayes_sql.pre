@@ -1,0 +1,1 @@
+loadplugin Mail::SpamAssassin::Plugin::ZZ_BayesSQL /etc/mail/spamassassin/ZZ_BayesSQL.pm

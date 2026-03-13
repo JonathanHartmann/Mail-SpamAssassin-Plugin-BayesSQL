@@ -1,0 +1,11 @@
+ifplugin Mail::SpamAssassin::Plugin::ZZ_BayesSQL
+
+    add_header all ECHighSpam _ECHIGHSPAM_
+	
+    # Ab welchem Score soll eine Mail automatisch als SPAM gelernt werden?
+    # Bis zu welchem Score soll eine Mail automatisch als HAM (Kein Spam) gelernt werden?
+    bayes_auto_learn_threshold_nonspam 1.0
+    bayes_auto_learn_threshold_spam   12.0
+
+
+endif
